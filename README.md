@@ -1,5 +1,7 @@
 # Venmo Network Analysis
 
+The code in this repository helps you analyze the transaction data for your personal Venmo network.
+
 ## Usage
 
 ### Download Venmo Contacts
