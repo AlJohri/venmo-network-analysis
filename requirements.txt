@@ -1,2 +1,4 @@
+decorator==4.0.9
+networkx==1.11
 requests==2.9.1
 wheel==0.26.0
