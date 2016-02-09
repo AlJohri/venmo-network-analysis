@@ -1,0 +1,4 @@
+*.pyc
+data
+contacts.json
+.secret
