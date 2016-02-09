@@ -45,3 +45,16 @@ cp .secret.example .secret
 # fill in the CELLPHONE and PASSWORD data for Venmo login
 ```
 
+## Venmo API
+
+Endpoints
+
+- https://venmo.com/api/v5/users/<userid>/feed
+- https://venmo.com/api/v5/users/<userid>/friends
+- https://venmo.com/api/v5/public
+
+Query Parameters
+
+- until (timestamp in seconds)
+- since (timestamp in seconds)
+- limit (integer)
