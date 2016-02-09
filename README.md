@@ -51,8 +51,8 @@ cp .secret.example .secret
 
 Endpoints
 
-- https://venmo.com/api/v5/users/<userid>/feed
-- https://venmo.com/api/v5/users/<userid>/friends
+- https://venmo.com/api/v5/users/[userid]/feed
+- https://venmo.com/api/v5/users/[userid]/friends
 - https://venmo.com/api/v5/public
 
 Query Parameters
