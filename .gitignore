@@ -1,4 +1,6 @@
 *.pyc
+.DS_Store
 data
+data.tgz
 contacts.json
 .secret
