@@ -32,7 +32,13 @@ for contact in contacts:
 
     while True:
         data = s.get(url).json()
-        transactions += data['data']
+        try:
+            transactions += data['data']
+        except KeyError:
+            print("Tried Downloading data for page %d [%s] %s but ran into an error" % (page, contact['user_id'], contact['full_name']))
+            print("This was the data returned from the API:")
+            print(data)
+            break
         
         if len(data['data']) == 0:
             print("Tried Downloading data for page %d [%s] %s but no transactions" % (page, contact['user_id'], contact['full_name']))
